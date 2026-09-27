@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cloningkit"
+version = "0.1.0"
+description = "Cloning experiment design library for wet-lab work"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.13"
+dependencies = [
+  "biopython>=1.86",
+  "primer3-py>=2.3.0",
+  "pydna>=5.5.16",
+  "python-codon-tables>=0.1.18",
+]
+
+[dependency-groups]
+dev = ["mypy>=1.19", "pytest>=9", "ruff>=0.15"]
+
+[project.scripts]
+cloningkit = "cloningkit.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["cloningkit"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py313"
+
+[tool.mypy]
+python_version = "3.14"
+warn_return_any = true
+warn_unused_configs = true
+
+[[tool.mypy.overrides]]
+module = ["primer3", "pydna.*", "python_codon_tables"]
+ignore_missing_imports = true
