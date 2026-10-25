@@ -8,11 +8,11 @@
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1791995211,
-        "narHash": "sha256-GWhLZP49fgvaYUj3rWRcu3oK5ZupHx9G1xOTp1LyUVk=",
+        "lastModified": 1792410472,
+        "narHash": "sha256-dJm5lM/4D/LWKeyrdUKXBOWpC/tLZaToHQpGZ3EAFA8=",
         "owner": "SBEE-Lab",
         "repo": "bioinformatics-toolkits",
-        "rev": "d8a109b3c74f99c31387f14578b7e76f4821c66a",
+        "rev": "1e823c14298e16c834182783554b71dbd3032996",
         "type": "github"
       },
       "original": {
@@ -52,11 +52,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1791363159,
-        "narHash": "sha256-Ib4JgQttCsCAUw91axpE6++As5sv6Rj952tpK7212Ng=",
+        "lastModified": 1791885023,
+        "narHash": "sha256-C3alQ2MEt0zVrUSho5NUDo3jmhbff72++bfwoqT9Omo=",
         "owner": "numtide",
         "repo": "treefmt-nix",
-        "rev": "0043298c56ba5082fe20a2f788be14e170262074",
+        "rev": "0d6d739a833ba9a9c93034862e4a7b061a062a1c",
         "type": "github"
       },
       "original": {
